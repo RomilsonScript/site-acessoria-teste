@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useCallback, } from 'react';
+import React, { useState, useEffect } from 'react';
 import * as S from './style';
 
 
 import Menu from '../../components/Menu';
 import Inputs from '../../components/Inputs'
-import MenuHamburger from '../../components/MenuHamburger';
+
 import CardServicos from '../../components/Sevicos';
 
 import services from '../../utils/servicos.js';

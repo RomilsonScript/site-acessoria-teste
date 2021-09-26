@@ -9,7 +9,7 @@ function Menu() {
   const [menu, setMenu] = useState(false);
 
   function setMenuUser(){
-    menu == false ? setMenu(true) : setMenu(false)
+    menu === false ? setMenu(true) : setMenu(false)
   }
 
   useEffect(() => {
